@@ -366,7 +366,17 @@ LOG_USER_SELECT_ACTIONS = False
 #        'grant_types': ['authorization_code'],
 #     }
 # ]
-OAUTH2_CLIENTS = []
+OAUTH2_CLIENTS = [
+    {
+        "client_id": "oauth2_pub_test",
+        "client_name": "Example application (Public)",
+        "redirect_urls": ["http://localhost:8080/callback"],
+        "allowed_scopes": ["profile"],
+        "response_types": ["code", "token"],
+        "grant_types": ["authorization_code"],
+        "token_endpoint_auth_method": "none",
+    },
+]
 
 # Name of user that is used for displaying model/example answers.
 MODEL_ANSWER_USER_NAME = "mallivastaus"
