@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/TIM-JYU/tim-extra/main/docs/logot/tim-logo-with-text.svg" alt="TIM">
 
-# TIM - The Interactive Material
+# TIM - The Interactive Materialaaa
 </div>
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/TIM-JYU/TIM/tests.yml?branch=master&style=for-the-badge)](https://github.com/TIM-JYU/TIM/actions)
